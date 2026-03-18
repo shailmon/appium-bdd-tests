@@ -1,0 +1,222 @@
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"Pixel_6_API33","appium:app":"https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk","appium:autoGrantPermissions":true,"appium:newCommandTimeout":300},"firstMatch":[{}]}}[39m
+[38;5;189m[AppiumDriver@eafc][0m Calling AppiumDriver.createSession() with args: [{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"Pixel_6_API33","appium:app":"https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk","appium:autoGrantPermissions":true,"appium:newCommandTimeout":300},"firstMatch":[{}]},{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"Pixel_6_API33","appium:app":"https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk","appium:autoGrantPermissions":true,"appium:newCommandTimeout":300},"firstMatch":[{}]},{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"Pixel_6_API33","appium:app":"https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk","appium:autoGrantPermissions":true,"appium:newCommandTimeout":300},"firstMatch":[{}]}]
+[38;5;189m[AppiumDriver@eafc][0m Event 'newSessionRequested' logged at 1773839178639 (18:36:18 GMT+0530 (India Standard Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/brownie/.appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/brownie/.appium/node_modules/appium-uiautomator2-driver/build/lib/index.js
+[38;5;189m[AppiumDriver@eafc][0m Appium v3.2.2 creating new AndroidUiautomator2Driver (v7.0.0) session
+[38;5;189m[AppiumDriver@eafc][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;189m[AppiumDriver@eafc][0m Appium's BaseDriver version is 10.2.2
+[38;5;189m[AppiumDriver@eafc][0m AndroidUiautomator2Driver's BaseDriver version is 10.2.2
+[38;5;189m[AppiumDriver@eafc][0m Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;-150m[AndroidUiautomator2Driver@72a1][0m 
+[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:automationName": "UiAutomator2",
+    "appium:deviceName": "Pixel_6_API33",
+    "appium:app": "https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk",
+    "appium:autoGrantPermissions": true,
+    "appium:newCommandTimeout": 300
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Session created with session id: d759270c-bf00-4a12-b7e8-ec02a1ee265b
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Found 2 'build-tools' folders under '/Users/brownie/Library/Android/sdk' (newest first):
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m     /Users/brownie/Library/Android/sdk/build-tools/36.1.0
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m     /Users/brownie/Library/Android/sdk/build-tools/33.0.2
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/brownie/Library/Android/sdk/platform-tools/adb'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Retrieving device list
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Using device: emulator-5554
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/brownie/Library/Android/sdk/platform-tools/adb'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Setting device id to emulator-5554
+[38;5;145m[d759270c][0m[38;5;123m[BaseDriver][0m Using downloadable app 'https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk'
+[38;5;145m[d759270c][0m[38;5;123m[BaseDriver][0m Request headers: {"user-agent":"Appium (BaseDriver v10.2.2)"}
+[38;5;145m[d759270c][0m[38;5;123m[BaseDriver][0m Response status: 200
+[38;5;145m[d759270c][0m[38;5;123m[BaseDriver][0m Etag: "0x8DA2EBFE21557E8"
+[38;5;145m[d759270c][0m[38;5;123m[BaseDriver][0m Last-Modified: Thu, 05 May 2022 17:51:29 GMT
+[38;5;145m[d759270c][0m[38;5;123m[BaseDriver][0m Content-Disposition: attachment; filename=Android-MyDemoAppRN.1.3.0.build-244.apk
+[38;5;145m[d759270c][0m[38;5;123m[BaseDriver][0m The application (31.80 MB) has been downloaded to '/var/folders/gj/_0rls1wj50s4k0yd6dqx84k80000gn/T/2026218-24912-vz47li.2r2qf/Android-MyDemoAppRN.1.3.0.build-244.apk' in 1.725s
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Checking whether app is actually present
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Current device property 'ro.build.version.sdk': 33
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Current device property 'ro.build.version.release': 13
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Device API level: 33
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Relaxing hidden api policy
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Parsing package and activity from the 'Android-MyDemoAppRN.1.3.0.build-244.apk' file manifest
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/brownie/Library/Android/sdk/build-tools/36.1.0/aapt2'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Reading package manifest: '/Users/brownie/Library/Android/sdk/build-tools/36.1.0/aapt2 dump badging /var/folders/gj/_0rls1wj50s4k0yd6dqx84k80000gn/T/2026218-24912-vz47li.2r2qf/Android-MyDemoAppRN.1.3.0.build-244.apk'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Pushing settings apk to the device...
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Getting package info for 'io.appium.settings'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Package name: 'com.saucelabs.mydemoapp.rn'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Main activity name: 'com.saucelabs.mydemoapp.rn.MainActivity'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Resolved launch package -> activity: com.saucelabs.mydemoapp.rn -> com.saucelabs.mydemoapp.rn.MainActivity
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Resolved wait package -> activity: com.saucelabs.mydemoapp.rn -> com.saucelabs.mydemoapp.rn.MainActivity
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Reading package manifest: '/Users/brownie/Library/Android/sdk/build-tools/36.1.0/aapt2 dump badging /Users/brownie/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('7.0.20' >= '7.0.20')
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m There is no need to install/upgrade '/Users/brownie/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m io.appium.settings is already running. There is no need to reset its permissions.
+[38;5;145m[d759270c][0m[38;5;160m[Logcat][0m Starting logs capture with command: /Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Forwarding system: 8200 to device: 6790
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m UIA2Proxy options: {"server":"127.0.0.1","port":8200,"keepAlive":true,"scheme":"http","base":"","reqBasePath":"","sessionId":null,"timeout":240000}
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Checking app cert for /var/folders/gj/_0rls1wj50s4k0yd6dqx84k80000gn/T/2026218-24912-vz47li.2r2qf/Android-MyDemoAppRN.1.3.0.build-244.apk
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cmd package list packages --show-versioncode'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Reading package manifest: '/Users/brownie/Library/Android/sdk/build-tools/36.1.0/aapt2 dump badging /Users/brownie/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v9.11.1.apk'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from '/Users/brownie/Library/Android/sdk/build-tools/36.1.0/lib/apksigner.jar'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Starting apksigner: /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/brownie/Library/Android/sdk/build-tools/36.1.0/lib/apksigner.jar verify --print-certs /var/folders/gj/_0rls1wj50s4k0yd6dqx84k80000gn/T/2026218-24912-vz47li.2r2qf/Android-MyDemoAppRN.1.3.0.build-244.apk
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('9.11.1' >= '9.11.1')
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Server packages status: [{"installState":"sameVersionInstalled","appPath":"/Users/brownie/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v9.11.1.apk","appId":"io.appium.uiautomator2.server"},{"installState":"sameVersionInstalled","appPath":"/Users/brownie/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Server packages are not going to be (re)installed
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Waiting up to 30000ms for services to be available
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m apksigner stdout: Signer #1 certificate DN: CN=Android Debug, OU=Android, O=Unknown, L=Unknown, ST=Unknown, C=US
+Signer #1 certificate SHA-256 digest: fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c
+Signer #1 certificate SHA-1 digest: 5e8f16062ea3cd2c4a0d547876baa6f38cabf625
+Signer #1 certificate MD5 digest: 20f46148b72d8e5e5ca23d37a4f41490
+
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m '/var/folders/gj/_0rls1wj50s4k0yd6dqx84k80000gn/T/2026218-24912-vz47li.2r2qf/Android-MyDemoAppRN.1.3.0.build-244.apk' is signed with a non-default certificate
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Getting package info for 'com.saucelabs.mydemoapp.rn'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.saucelabs.mydemoapp.rn'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Reading package manifest: '/Users/brownie/Library/Android/sdk/build-tools/36.1.0/aapt2 dump badging /var/folders/gj/_0rls1wj50s4k0yd6dqx84k80000gn/T/2026218-24912-vz47li.2r2qf/Android-MyDemoAppRN.1.3.0.build-244.apk'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m The version name of the installed 'com.saucelabs.mydemoapp.rn' is greater or equal to the application version name ('1.3.0' >= '1.3.0')
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m There is no need to install/upgrade '/var/folders/gj/_0rls1wj50s4k0yd6dqx84k80000gn/T/2026218-24912-vz47li.2r2qf/Android-MyDemoAppRN.1.3.0.build-244.apk'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Performing fast reset on 'com.saucelabs.mydemoapp.rn'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Getting install status for com.saucelabs.mydemoapp.rn
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cmd package list packages --show-versioncode'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m 'com.saucelabs.mydemoapp.rn' is installed
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.saucelabs.mydemoapp.rn'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.saucelabs.mydemoapp.rn'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.saucelabs.mydemoapp.rn'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Retrieving requested permissions
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Retrieved 18 permissions from requested group
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Retrieving granted permissions
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Retrieved 8 permissions from install,runtime groups
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Granting permissions ["android.permission.CAMERA","android.permission.ACCESS_COARSE_LOCATION","android.permission.ACCESS_FINE_LOCATION","android.permission.READ_EXTERNAL_STORAGE","android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_PHONE_STATE","android.permission.POST_NOTIFICATIONS","android.permission.READ_MEDIA_AUDIO","android.permission.READ_MEDIA_VIDEO","android.permission.READ_MEDIA_IMAGES"] to 'com.saucelabs.mydemoapp.rn'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Got the following command chunks to execute: [["pm","grant","com.saucelabs.mydemoapp.rn","android.permission.CAMERA",";","pm","grant","com.saucelabs.mydemoapp.rn","android.permission.ACCESS_COARSE_LOCATION",";","pm","grant","com.saucelabs.mydemoapp.rn","android.permission.ACCESS_FINE_LOCATION",";","pm","grant","com.saucelabs.mydemoapp.rn","android.permission.READ_EXTERNAL_STORAGE",";","pm","grant","com.saucelabs.mydemoapp.rn","android.permission.WRITE_EXTERNAL_STORAGE",";","pm","grant","com.saucelabs.mydemoapp.rn","android.permission.READ_PHONE_STATE",";","pm","grant","com.saucelabs.mydemoapp.rn","android.permission.POST_NOTIFICATIONS",";","pm","grant","com.saucelabs.mydemoapp.rn","android.permission.READ_MEDIA_AUDIO",";","pm","grant","com.saucelabs.mydemoapp.rn","android.permission.READ_MEDIA_VIDEO",";","pm","grant","com.saucelabs.mydemoapp.rn","android.permission.READ_MEDIA_IMAGES",";"]]
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm grant com.saucelabs.mydemoapp.rn android.permission.CAMERA ; pm grant com.saucelabs.mydemoapp.rn android.permission.ACCESS_COARSE_LOCATION ; pm grant com.saucelabs.mydemoapp.rn android.permission.ACCESS_FINE_LOCATION ; pm grant com.saucelabs.mydemoapp.rn android.permission.READ_EXTERNAL_STORAGE ; pm grant com.saucelabs.mydemoapp.rn android.permission.WRITE_EXTERNAL_STORAGE ; pm grant com.saucelabs.mydemoapp.rn android.permission.READ_PHONE_STATE ; pm grant com.saucelabs.mydemoapp.rn android.permission.POST_NOTIFICATIONS ; pm grant com.saucelabs.mydemoapp.rn android.permission.READ_MEDIA_AUDIO ; pm grant com.saucelabs.mydemoapp.rn android.permission.READ_MEDIA_VIDEO ; pm grant com.saucelabs.mydemoapp.rn android.permission.READ_MEDIA_IMAGES ;'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Performed fast reset on the installed 'com.saucelabs.mydemoapp.rn' application (stop and clear)
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Performing shallow cleanup of automation leftovers
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m No obsolete sessions have been detected (socket hang up)
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Starting UIAutomator2 server 9.11.1
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Using UIAutomator2 server from '/Users/brownie/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v9.11.1.apk' and test from '/Users/brownie/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Matched '/status' to command name 'getStatus'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m socket hang up
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m [Instrumentation] 
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Matched '/status' to command name 'getStatus'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Got response with status 200: {"sessionId":"None","value":{"build":{"version":"9.11.1","versionCode":253},"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m The initialization of the instrumentation process took 1053ms
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Matched '/session' to command name 'createSession'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"UiAutomator2","deviceName":"emulator-5554","app":"https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk","autoGrantPermissions":true,"newCommandTimeout":300,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"Pixel_6_API33","app":"https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk","autoGrantPermissions":true,"newCommandTimeout":300},"deviceUDID":"emulator-5554","appPackage":"com.saucelabs.mydemoapp.rn","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity"}],"alwaysMatch":{}}}
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Got response with status 200: {"sessionId":"1c28eb8d-45af-4ec5-a8b3-92adb94dd987","value":{"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"UiAutomator2","deviceName":"emulator-5554","app":"https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk","autoGrantPermissions":true,"newCommandTimeout":300,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"Pixel_6_API33","app":"https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk","autoGrantPermissions":true,"newCommandTimeout":300},"deviceUDID":"emulator-5554","appPackage":"com.saucelabs.mydemoapp.rn","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity"}],"alwaysMatch":{}},"sessionId":"1c28eb8d-45af-4ec5-a8b3-92adb94dd987"}}
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Determined the downstream protocol as 'W3C'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/1c28eb8d-45af-4ec5-a8b3-92adb94dd987/appium/device/pixel_ratio] with no body
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/1c28eb8d-45af-4ec5-a8b3-92adb94dd987/appium/device/system_bars] with no body
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/1c28eb8d-45af-4ec5-a8b3-92adb94dd987/window/current/size] with no body
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/1c28eb8d-45af-4ec5-a8b3-92adb94dd987/appium/device/info] with no body
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys power'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Got response with status 200: {"sessionId":"1c28eb8d-45af-4ec5-a8b3-92adb94dd987","value":2.625}
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Got response with status 200: {"sessionId":"1c28eb8d-45af-4ec5-a8b3-92adb94dd987","value":{"height":2400,"width":1080}}
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Got response with status 200: {"sessionId":"1c28eb8d-45af-4ec5-a8b3-92adb94dd987","value":{"statusBar":128}}
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Got response with status 200: {"sessionId":"1c28eb8d-45af-4ec5-a8b3-92adb94dd987","value":{"androidId":"1bf7c78f4aafde52","apiVersion":"33","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":420,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_arm64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":4300,"linkUpstreamBandwidthKbps":1800,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":10,"subtypeName":"HSPA","type":0,"typeName":"MOBILE"},{"capabilitie...
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Screen already unlocked, doing nothing
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Starting 'com.saucelabs.mydemoapp.rn/com.saucelabs.mydemoapp.rn.MainActivity' and waiting for 'com.saucelabs.mydemoapp.rn/com.saucelabs.mydemoapp.rn.MainActivity'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start-activity -W -n com.saucelabs.mydemoapp.rn/com.saucelabs.mydemoapp.rn.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Expected package names to be focused within 20000ms: 'com.saucelabs.mydemoapp.rn'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Expected activity name patterns to be focused within 20000ms: '/^com\.saucelabs\.mydemoapp\.rn\.MainActivity$/'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Getting focused package and activity
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window displays'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Focused package: com.saucelabs.mydemoapp.rn
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Focused fully qualified activity name: com.saucelabs.mydemoapp.rn.MainActivity
+[38;5;145m[d759270c][0m[38;5;189m[AppiumDriver@eafc][0m New AndroidUiautomator2Driver session created successfully, session d759270c-bf00-4a12-b7e8-ec02a1ee265b added to master session list
+[38;5;145m[d759270c][0m[38;5;189m[AppiumDriver@eafc][0m Event 'newSessionStarted' logged at 1773839184106 (18:36:24 GMT+0530 (India Standard Time))
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Cached the protocol value 'W3C' for the new session d759270c-bf00-4a12-b7e8-ec02a1ee265b
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"emulator-5554","app":"https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk","autoGrantPermissions":true,"newCommandTimeout":300,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"Pixel_6_API33","app":"https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk","autoGrantPermissions":true,"newCommandTimeout":300},"deviceUDID":"emulator-5554","appPackage":"com.saucelabs.mydemoapp.rn","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","pixelRatio":"2.625","statBarHeight":128,"viewportRect":{"left":0,"top":128,"width":1080,"height":2272},"deviceApiLevel":33,"platformVersion":"13","deviceManufac...
+[38;5;145m[d759270c][0m[38;5;86m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m5469 ms - 1191[39m
+[38;5;145m[d759270c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/d759270c-bf00-4a12-b7e8-ec02a1ee265b/element[39m [90m{"using":"xpath","value":"//*[@text='Products'] | //*[contains(@content-desc, 'Products')]"}[39m
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='Products'] | //*[contains(@content-desc, 'Products')]","d759270c-bf00-4a12-b7e8-ec02a1ee265b"]
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Waiting up to 0 ms for condition
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Matched '/element' to command name 'findElement'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/1c28eb8d-45af-4ec5-a8b3-92adb94dd987/element] with body: {"strategy":"xpath","selector":"//*[@text='Products'] | //*[contains(@content-desc, 'Products')]","context":"","multiple":false}
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Got response with status 200: {"sessionId":"1c28eb8d-45af-4ec5-a8b3-92adb94dd987","value":{"ELEMENT":"00000000-0000-001b-ffff-ffff00000030","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-001b-ffff-ffff00000030"}}
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-001b-ffff-ffff00000030","ELEMENT":"00000000-0000-001b-ffff-ffff00000030"}
+[38;5;145m[d759270c][0m[38;5;86m[HTTP][0m [37m<-- POST /session/d759270c-bf00-4a12-b7e8-ec02a1ee265b/element [39m[32m200[39m [90m140 ms - 137[39m
+[38;5;145m[d759270c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/d759270c-bf00-4a12-b7e8-ec02a1ee265b/element/00000000-0000-001b-ffff-ffff00000030/displayed[39m [90m[39m
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-001b-ffff-ffff00000030","d759270c-bf00-4a12-b7e8-ec02a1ee265b"]
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Matched '/element/00000000-0000-001b-ffff-ffff00000030/attribute/displayed' to command name 'getAttribute'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Proxying [GET /element/00000000-0000-001b-ffff-ffff00000030/attribute/displayed] to [GET http://127.0.0.1:8200/session/1c28eb8d-45af-4ec5-a8b3-92adb94dd987/element/00000000-0000-001b-ffff-ffff00000030/attribute/displayed] with no body
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Got response with status 200: {"sessionId":"1c28eb8d-45af-4ec5-a8b3-92adb94dd987","value":"true"}
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Responding to client with driver.elementDisplayed() result: true
+[38;5;145m[d759270c][0m[38;5;86m[HTTP][0m [37m<-- GET /session/d759270c-bf00-4a12-b7e8-ec02a1ee265b/element/00000000-0000-001b-ffff-ffff00000030/displayed [39m[32m200[39m [90m677 ms - 14[39m
+[38;5;145m[d759270c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/d759270c-bf00-4a12-b7e8-ec02a1ee265b/element/00000000-0000-001b-ffff-ffff00000030/displayed[39m [90m[39m
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-001b-ffff-ffff00000030","d759270c-bf00-4a12-b7e8-ec02a1ee265b"]
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Matched '/element/00000000-0000-001b-ffff-ffff00000030/attribute/displayed' to command name 'getAttribute'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Proxying [GET /element/00000000-0000-001b-ffff-ffff00000030/attribute/displayed] to [GET http://127.0.0.1:8200/session/1c28eb8d-45af-4ec5-a8b3-92adb94dd987/element/00000000-0000-001b-ffff-ffff00000030/attribute/displayed] with no body
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Got response with status 200: {"sessionId":"1c28eb8d-45af-4ec5-a8b3-92adb94dd987","value":"true"}
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Responding to client with driver.elementDisplayed() result: true
+[38;5;145m[d759270c][0m[38;5;86m[HTTP][0m [37m<-- GET /session/d759270c-bf00-4a12-b7e8-ec02a1ee265b/element/00000000-0000-001b-ffff-ffff00000030/displayed [39m[32m200[39m [90m12 ms - 14[39m
+[38;5;145m[d759270c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/d759270c-bf00-4a12-b7e8-ec02a1ee265b[39m [90m[39m
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Calling AppiumDriver.deleteSession() with args: ["d759270c-bf00-4a12-b7e8-ec02a1ee265b"]
+[38;5;145m[d759270c][0m[38;5;189m[AppiumDriver@eafc][0m Event 'quitSessionRequested' logged at 1773839186446 (18:36:26 GMT+0530 (India Standard Time))
+[38;5;145m[d759270c][0m[38;5;189m[AppiumDriver@eafc][0m Removing session d759270c-bf00-4a12-b7e8-ec02a1ee265b from our master session list
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Deleting UiAutomator2 session
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Deleting UiAutomator2 server session
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/1c28eb8d-45af-4ec5-a8b3-92adb94dd987] with no body
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Got response with status 200: {"sessionId":"1c28eb8d-45af-4ec5-a8b3-92adb94dd987","value":null}
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Getting IDs of all 'io.appium.uiautomator2.server' processes
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps --help'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps -A'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m [Instrumentation] 
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m [Instrumentation] Time: 3.851
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m [Instrumentation] 
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m [Instrumentation] OK (1 test)
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m [Instrumentation] 
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m [Instrumentation] 
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m [Instrumentation] The process has exited with code 0, signal null
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.saucelabs.mydemoapp.rn'
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Removing forwarded port socket connection: 8200 
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:8200'
+[38;5;145m[d759270c][0m[38;5;-150m[AndroidUiautomator2Driver@72a1][0m Restoring hidden api policy to the device default configuration
+[38;5;145m[d759270c][0m[38;5;229m[ADB][0m Running '/Users/brownie/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[38;5;145m[d759270c][0m[38;5;160m[Logcat][0m Stopping logcat capture
+[38;5;145m[d759270c][0m[38;5;189m[AppiumDriver@eafc][0m Event 'quitSessionFinished' logged at 1773839186660 (18:36:26 GMT+0530 (India Standard Time))
+[38;5;145m[d759270c][0m[38;5;189m[AppiumDriver@eafc][0m Received response: null
+[38;5;145m[d759270c][0m[38;5;189m[AppiumDriver@eafc][0m But deleting session, so not returning
+[38;5;145m[d759270c][0m[38;5;189m[AppiumDriver@eafc][0m Responding to client with driver.deleteSession() result: null
+[38;5;145m[d759270c][0m[38;5;86m[HTTP][0m [37m<-- DELETE /session/d759270c-bf00-4a12-b7e8-ec02a1ee265b [39m[32m200[39m [90m215 ms - 14[39m

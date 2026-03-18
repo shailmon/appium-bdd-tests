@@ -1,4 +1,5 @@
 import capabilities from './capabilities.json';
+import { execSync } from 'child_process';
 
 export const config: WebdriverIO.Config = {
     // Set execution properties
@@ -66,5 +67,17 @@ export const config: WebdriverIO.Config = {
         tagExpression: '',
         timeout: 60000,
         ignoreUndefinedDefinitions: false
+    },
+
+    // =====
+    // Hooks
+    // =====
+    afterFeature: function (uri: string, feature: any) {
+        try {
+            execSync('npx allure generate reports/allure-results --clean -o reports/allure-report', { stdio: 'inherit' });
+            console.log(`Allure report generated after feature: ${feature.name}`);
+        } catch (err) {
+            console.error('Failed to generate Allure report after feature', err);
+        }
     }
 };
