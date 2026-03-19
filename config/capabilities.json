@@ -3,9 +3,9 @@
     "platformName": "Android",
     "appium:automationName": "UiAutomator2",
     "appium:deviceName": "Pixel_6_API33",
-    "appium:app": "https://github.com/wikimedia/apps-android-wikipedia/releases/download/latest/app-alpha-universal-release.apk",
-    "appium:appPackage": "org.wikipedia.alpha",
-    "appium:appActivity": "org.wikipedia.main.MainActivity",
+    "appium:app": "https://github.com/duckduckgo/Android/releases/download/5.272.0/duckduckgo-5.272.0-play-release.apk",
+    "appium:appPackage": "com.duckduckgo.mobile.android",
+    "appium:appActivity": "com.duckduckgo.app.launch.LaunchBridgeActivity",
     "appium:autoGrantPermissions": true,
     "appium:noReset": true,
     "appium:newCommandTimeout": 300
