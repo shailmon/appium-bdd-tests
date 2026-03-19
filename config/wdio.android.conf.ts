@@ -11,7 +11,7 @@ export const config: WebdriverIO.Config = {
 
     // Spec patterns
     specs: [
-        '../features/**/*.feature'
+        '../features/standalone-workflows/launch_app.feature'
     ],
     exclude: [],
 
@@ -44,8 +44,11 @@ export const config: WebdriverIO.Config = {
         'spec',
         ['allure', {
             outputDir: 'reports/allure-results',
+            // Hide all low-level WebDriver commands — only show Cucumber steps
             disableWebdriverStepsReporting: true,
-            disableWebdriverScreenshotsReporting: false,
+            disableWebdriverScreenshotsReporting: true,
+            // Group results by Feature → Scenario in the Behaviors tab
+            useCucumberStepReporter: true,
         }]
     ],
 

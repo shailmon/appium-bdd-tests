@@ -3,8 +3,20 @@
     "platformName": "Android",
     "appium:automationName": "UiAutomator2",
     "appium:deviceName": "Pixel_6_API33",
-    "appium:app": "https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/Android-MyDemoAppRN.1.3.0.build-244.apk",
+    "appium:app": "https://github.com/wikimedia/apps-android-wikipedia/releases/download/latest/app-alpha-universal-release.apk",
+    "appium:appPackage": "org.wikipedia.alpha",
+    "appium:appActivity": "org.wikipedia.main.MainActivity",
     "appium:autoGrantPermissions": true,
+    "appium:noReset": true,
+    "appium:newCommandTimeout": 300
+  },
+  "ios": {
+    "platformName": "iOS",
+    "appium:automationName": "XCUITest",
+    "appium:deviceName": "iPhone 15",
+    "appium:platformVersion": "17.2",
+    "appium:app": "https://github.com/saucelabs/my-demo-app-rn/releases/download/v1.3.0/iOS-Simulator-MyRNDemoApp.1.3.0-162.zip",
+    "appium:autoAcceptAlerts": true,
     "appium:newCommandTimeout": 300
   }
 }

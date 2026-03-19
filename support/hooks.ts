@@ -3,33 +3,44 @@ import allureReporter from '@wdio/allure-reporter';
 import { driver } from '@wdio/globals';
 
 BeforeAll(async () => {
-  // Global setup if needed
+  // Global setup
 });
 
 Before(async (scenario) => {
-  allureReporter.addFeature(scenario.gherkinDocument.feature?.name || 'Unknown Feature');
-  allureReporter.addDescription(`Scenario: ${scenario.pickle.name}`, 'text');
+  const featureName = scenario.gherkinDocument.feature?.name || 'Unknown Feature';
+  const scenarioName = scenario.pickle.name;
+
+  // Set the feature and story labels for clean BDD grouping in Allure
+  allureReporter.addFeature(featureName);
+  allureReporter.addStory(scenarioName);
+  allureReporter.addLabel('suite', featureName);
+  allureReporter.addDescription(
+    `**Feature:** ${featureName}\n**Scenario:** ${scenarioName}`,
+    'markdown'
+  );
 });
 
 AfterStep(async (step) => {
-  // Take screenshot if step failed
-  if (step.result.status === Status.FAILED) {
-    const screenshot = await driver.takeScreenshot();
-    allureReporter.addAttachment('Screenshot on failure', Buffer.from(screenshot, 'base64'), 'image/png');
-  } else {
-    // Take screenshot on critical steps even if passed (e.g. login, checkout)
-    const stepText = step.pickleStep.text.toLowerCase();
-    if (stepText.includes('login') || stepText.includes('submit') || stepText.includes('otp')) {
-      const screenshot = await driver.takeScreenshot();
-      allureReporter.addAttachment(`Screenshot after: ${step.pickleStep.text}`, Buffer.from(screenshot, 'base64'), 'image/png');
-    }
+  const stepText   = step.pickleStep.text;
+  const stepStatus = step.result.status;
+  const passed     = stepStatus === Status.PASSED;
+
+  // Capture screenshot after every step
+  const screenshot = await driver.takeScreenshot();
+  const label = passed
+    ? `✅ PASSED — ${stepText}`
+    : `❌ FAILED — ${stepText}`;
+
+  allureReporter.addAttachment(label, Buffer.from(screenshot, 'base64'), 'image/png');
+});
+
+After(async (scenario) => {
+  const status = scenario.result?.status;
+  if (status === Status.FAILED) {
+    allureReporter.addLabel('testType', 'screenshotDiff');
   }
 });
 
-After(async () => {
-  // Clean up scenario state if needed
-});
-
 AfterAll(async () => {
-  // Global teardown if needed
+  // Global teardown
 });
